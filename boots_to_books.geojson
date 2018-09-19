@@ -1,0 +1,1040 @@
+{
+  "type": "FeatureCollection",
+  "etag": "fdb8cbf2b8bc69d4",
+  "features": [
+    {
+      "id": "yZr3BZMgK2",
+      "bbox": [
+        -122.40549445152283,
+        37.7980772264691,
+        -122.40549445152283,
+        37.7980772264691
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Peter Macchiarini Steps",
+        "start_year": 1991,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 1,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537315695180
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40549445152283,
+          37.7980772264691
+        ]
+      }
+    },
+    {
+      "id": "w3WSGPlFnH",
+      "bbox": [
+        -122.40569829940796,
+        37.79806450997161,
+        -122.40569829940796,
+        37.79806450997161
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Enricos",
+        "address": "504 Broadway",
+        "start_year": 1958,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 4,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537315695180
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40569829940796,
+          37.79806450997161
+        ]
+      }
+    },
+    {
+      "id": "yLX4ZHatxK",
+      "bbox": [
+        -122.40639567375182,
+        37.79798397210339,
+        -122.40639567375182,
+        37.79798397210339
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Hungry I",
+        "address": "546 Broadway",
+        "end_year": 1970,
+        "start_year": 1948,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 5,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537315695180
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40639567375182,
+          37.79798397210339
+        ]
+      }
+    },
+    {
+      "id": "vpc47YBqLW",
+      "bbox": [
+        -122.40639567375182,
+        37.7985943621788,
+        -122.40639567375182,
+        37.7985943621788
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Richard Brautigan",
+        "address": "Romolo Pl",
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 8,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537315695180
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40639567375182,
+          37.7985943621788
+        ]
+      }
+    },
+    {
+      "id": "nFQzq83dNw",
+      "bbox": [
+        -122.40714132785797,
+        37.79855197414208,
+        -122.40714132785797,
+        37.79855197414208
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "The Saloon",
+        "address": "1232 Grant",
+        "start_year": 1861,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 9,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537315695180
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40714132785797,
+          37.79855197414208
+        ]
+      }
+    },
+    {
+      "id": "yN8piq7xSn",
+      "bbox": [
+        -122.4040138721466,
+        37.79822558544467,
+        -122.4040138721466,
+        37.79822558544467
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Dirk Dirksen",
+        "start_year": 2008,
+        "marker-size": "medium",
+        "marker-color": "#bbb",
+        "marker-symbol": 2,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537315695180
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4040138721466,
+          37.79822558544467
+        ]
+      }
+    },
+    {
+      "id": "OXdo6Zj4rx",
+      "bbox": [
+        -122.40580290555953,
+        37.79804967405514,
+        -122.40580290555953,
+        37.79804967405514
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Finocchios",
+        "address": "506 Broadway",
+        "end_year": 1999,
+        "start_year": 1936,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 3,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537315695180
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40580290555953,
+          37.79804967405514
+        ]
+      }
+    },
+    {
+      "id": "olLyZKLCyY",
+      "bbox": [
+        -122.41092324256898,
+        37.801129122556006,
+        -122.41092324256898,
+        37.801129122556006
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Benny Bufano",
+        "stop": "no",
+        "marker-size": "medium",
+        "marker-color": "#bbbbbb",
+        "marker-symbol": 16,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537315695499
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41092324256898,
+          37.801129122556006
+        ]
+      }
+    },
+    {
+      "id": "SmQPx0y9zu",
+      "bbox": [
+        -122.40597188472748,
+        37.79764062546951,
+        -122.40597188472748,
+        37.79764062546951
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "12 Adler",
+        "end_year": "",
+        "start_year": 1969,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 25,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537315695796
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40597188472748,
+          37.79764062546951
+        ]
+      }
+    },
+    {
+      "id": "KTW6k26G1G",
+      "bbox": [
+        -122.40639299154282,
+        37.79750710134759,
+        -122.40639299154282,
+        37.79750710134759
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Vesuvio",
+        "address": "255 Columbus",
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 27,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537315695796
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40639299154282,
+          37.79750710134759
+        ]
+      }
+    },
+    {
+      "id": "KnLr1PED3X",
+      "bbox": [
+        -122.40708231925963,
+        37.799806649733185,
+        -122.40708231925963,
+        37.799806649733185
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Old Spaghetti Factory",
+        "address": "478 Green St",
+        "end_year": "198x",
+        "start_year": 1955,
+        "marker-size": "medium",
+        "marker-color": "#bbbbbb",
+        "marker-symbol": 29,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537315695796
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40708231925963,
+          37.799806649733185
+        ]
+      }
+    },
+    {
+      "id": "uyibOMY8vf",
+      "bbox": [
+        -122.40746855735779,
+        37.8002729088795,
+        -122.40746855735779,
+        37.8002729088795
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Savoy-Tivoli",
+        "1434 Grant": "",
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 30,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537315695796
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40746855735779,
+          37.8002729088795
+        ]
+      }
+    },
+    {
+      "id": "0YkshQCEZI",
+      "bbox": [
+        -122.40648686885832,
+        37.79751345964458,
+        -122.40648686885832,
+        37.79751345964458
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Jack Kerouac",
+        "order": "11",
+        "address": "Kerouac Alley",
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 23,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537316141663
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40648686885832,
+          37.79751345964458
+        ]
+      }
+    },
+    {
+      "id": "p0GLxM0QHx",
+      "bbox": [
+        -122.40634202957153,
+        37.79849686965797,
+        -122.40634202957153,
+        37.79849686965797
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "RE/SEARCH Publications",
+        "order": "2",
+        "address": "20 Romolo #B",
+        "start_year": 1970,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 7,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537316259612
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40634202957153,
+          37.79849686965797
+        ]
+      }
+    },
+    {
+      "id": "BDD9lAVTOf",
+      "bbox": [
+        -122.40733176469801,
+        37.798710929154346,
+        -122.40733176469801,
+        37.798710929154346
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe Trieste",
+        "order": "3",
+        "address": "609 Vallejo",
+        "start_year": 1956,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 10,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537316266040
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40733176469801,
+          37.798710929154346
+        ]
+      }
+    },
+    {
+      "id": "lXDOAgqm4r",
+      "bbox": [
+        -122.40904301404953,
+        37.79669535426995,
+        -122.40904301404953,
+        37.79669535426995
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Izzy Gomez / WIlliam Saroyan",
+        "order": "9",
+        "address": "848 Pacific",
+        "end_year": 1944,
+        "start_year": 1930,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 22,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537316272098
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40904301404953,
+          37.79669535426995
+        ]
+      }
+    },
+    {
+      "id": "IZK9ULwErg",
+      "bbox": [
+        -122.40613281726837,
+        37.798015763377656,
+        -122.40613281726837,
+        37.798015763377656
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Beat Museum",
+        "order": "1",
+        "address": "540 Broadway",
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 6,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695180,
+          "updatedAt": 1537317250115
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40613281726837,
+          37.798015763377656
+        ]
+      }
+    },
+    {
+      "id": "LexCz6btrC",
+      "bbox": [
+        -122.40746051073074,
+        37.80151272001839,
+        -122.40746051073074,
+        37.80151272001839
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Bob Kaufman",
+        "order": "5",
+        "address": "Bob Kaufman Alley",
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 14,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537317315912
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40746051073074,
+          37.80151272001839
+        ]
+      }
+    },
+    {
+      "id": "lwq1WlqxCF",
+      "bbox": [
+        -122.40654855966568,
+        37.79761095346328,
+        -122.40654855966568,
+        37.79761095346328
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "City Lights",
+        "order": "12",
+        "address": "261 Columbus St.",
+        "start_year": 1953,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 28,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537317330058
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40654855966568,
+          37.79761095346328
+        ]
+      }
+    },
+    {
+      "id": "iaJaBRh1rL",
+      "bbox": [
+        -122.40735858678818,
+        37.79927044807642,
+        -122.40735858678818,
+        37.79927044807642
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Coffee and Confusion",
+        "order": "4",
+        "decade": "1950s,1960s",
+        "address": "1339 Grant",
+        "start_year": "",
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 11,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537317358461
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40735858678818,
+          37.79927044807642
+        ]
+      }
+    },
+    {
+      "id": "vD3zDrFseb",
+      "bbox": [
+        -122.4073451757431,
+        37.799581996548376,
+        -122.4073451757431,
+        37.799581996548376
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Co-Existence Bagel Shop",
+        "order": "4",
+        "address": "1398 Grant",
+        "end_year": 1961,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 13,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537317360412
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4073451757431,
+          37.799581996548376
+        ]
+      }
+    },
+    {
+      "id": "2yZS50BALC",
+      "bbox": [
+        -122.40739613771439,
+        37.79946331157114,
+        -122.40739613771439,
+        37.79946331157114
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Coffee Gallery",
+        "order": "4",
+        "address": "1353 Grant",
+        "end_year": 2006,
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 12,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537317368739
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40739613771439,
+          37.79946331157114
+        ]
+      }
+    },
+    {
+      "id": "nhl95koK4m",
+      "bbox": [
+        -122.40920662879944,
+        37.79584756712077,
+        -122.4051296710968,
+        37.80157841883147
+      ],
+      "type": "Feature",
+      "properties": {
+        "route": "true",
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315696173,
+          "updatedAt": 1537317428271
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.40547835826872,
+            37.798017882795456
+          ],
+          [
+            -122.40627765655516,
+            37.797937344876374
+          ],
+          [
+            -122.40643322467804,
+            37.798861406250765
+          ],
+          [
+            -122.40721106529234,
+            37.79877239166736
+          ],
+          [
+            -122.40777969360353,
+            37.80157841883147
+          ],
+          [
+            -122.40857899188994,
+            37.80148516888583
+          ],
+          [
+            -122.40839123725891,
+            37.80054418557392
+          ],
+          [
+            -122.40920662879944,
+            37.80044245693025
+          ],
+          [
+            -122.40847170352936,
+            37.79674622118954
+          ],
+          [
+            -122.40905642509459,
+            37.796669920797044
+          ],
+          [
+            -122.40905106067657,
+            37.79661057599285
+          ],
+          [
+            -122.40846097469328,
+            37.7966826375346
+          ],
+          [
+            -122.40827322006226,
+            37.79584756712077
+          ],
+          [
+            -122.40665316581726,
+            37.79602560322911
+          ],
+          [
+            -122.4051296710968,
+            37.79619939830387
+          ],
+          [
+            -122.40532279014587,
+            37.79701751083569
+          ],
+          [
+            -122.40620255470274,
+            37.7975770425844
+          ]
+        ]
+      }
+    },
+    {
+      "id": "udcZVjHnNV",
+      "bbox": [
+        -122.4079218506813,
+        37.79853925772631,
+        -122.4079218506813,
+        37.79853925772631
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Kenneth Rexroth",
+        "stop": "no",
+        "order": "11",
+        "address": "Rexroth Place",
+        "marker-size": "medium",
+        "marker-color": "#bbb",
+        "marker-symbol": 26,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537317480896
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4079218506813,
+          37.79853925772631
+        ]
+      }
+    },
+    {
+      "id": "ICAvwfIzfS",
+      "bbox": [
+        -122.40795940160751,
+        37.80220361428986,
+        -122.40795940160751,
+        37.80220361428986
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Jack Micheline",
+        "stop": "no",
+        "order": "6",
+        "address": "Jack Micheline Alley",
+        "marker-size": "medium",
+        "marker-color": "#bbb",
+        "marker-symbol": 15,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537317564438
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40795940160751,
+          37.80220361428986
+        ]
+      }
+    },
+    {
+      "id": "aZDZ8MZADm",
+      "bbox": [
+        -122.40883111953735,
+        37.80037675710677,
+        -122.40883111953735,
+        37.80037675710677
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Lawrence Ferlinghetti",
+        "order": "7",
+        "address": "Via Ferlinghetti",
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 17,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537317586811
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40883111953735,
+          37.80037675710677
+        ]
+      }
+    },
+    {
+      "id": "n4IB23IYKE",
+      "bbox": [
+        -122.40810960531235,
+        37.79967736826689,
+        -122.40810960531235,
+        37.79967736826689
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Gino & Carlo's / Jack Spicer",
+        "stop": "no",
+        "order": "8",
+        "address": "548 Green St",
+        "marker-size": "medium",
+        "marker-color": "#bbbbbb",
+        "marker-symbol": 18,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537317597949
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40810960531235,
+          37.79967736826689
+        ]
+      }
+    },
+    {
+      "id": "Np9k7Zt3Wl",
+      "bbox": [
+        -122.40511894226076,
+        37.79614429372968,
+        -122.40511894226076,
+        37.79614429372968
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "I-Hotel",
+        "order": "10",
+        "address": "848 Kearny St",
+        "marker-size": "medium",
+        "marker-color": "#bbb",
+        "marker-symbol": 21,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537317624347
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40511894226076,
+          37.79614429372968
+        ]
+      }
+    },
+    {
+      "id": "TPjTC1WFU8",
+      "bbox": [
+        -122.40603893995284,
+        37.7975961174557,
+        -122.40603893995284,
+        37.7975961174557
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "William Saroyen",
+        "order": "9",
+        "address": "Saroyen Place",
+        "marker-size": "medium",
+        "marker-color": "#7e7e7e",
+        "marker-symbol": 24,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695796,
+          "updatedAt": 1537317627680
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40603893995284,
+          37.7975961174557
+        ]
+      }
+    },
+    {
+      "id": "MFavxU7EZu",
+      "bbox": [
+        -122.40635275840759,
+        37.794253700941674,
+        -122.40635275840759,
+        37.794253700941674
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Silent Traveler",
+        "stop": "no",
+        "order": "10",
+        "marker-size": "medium",
+        "marker-color": "#bbbbbb",
+        "marker-symbol": 19,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537317648604
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40635275840759,
+          37.794253700941674
+        ]
+      }
+    },
+    {
+      "id": "lqwCFmAehz",
+      "bbox": [
+        -122.40683555603027,
+        37.794185876086175,
+        -122.40683555603027,
+        37.794185876086175
+      ],
+      "type": "Feature",
+      "properties": {
+        "name": "Waverly Place / Amy Tan",
+        "stop": "no",
+        "order": "10",
+        "marker-size": "medium",
+        "marker-color": "#bbb",
+        "marker-symbol": 20,
+        "@ns:com:here:xyz": {
+          "tags": [],
+          "space": "7Pl9iDmI",
+          "createdAt": 1537315695499,
+          "updatedAt": 1537317655033
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40683555603027,
+          37.794185876086175
+        ]
+      }
+    }
+  ]
+}
