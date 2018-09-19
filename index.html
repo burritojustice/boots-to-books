@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Boots to Books</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="../dist/nextzen.css">
@@ -19,7 +20,7 @@
   </head>
   <body>
     <div id="map"></div>
-    <script src="../dist/nextzen.js"></script>
+    <script src="https://unpkg.com/nextzen.js@1.0.0/dist/nextzen.js"></script>
     <script>
       var lon = -74.009,
           lat = 40.70531;
@@ -27,16 +28,16 @@
       var map = L.Nextzen.map('map', {
         tangramOptions: {
           // get your tile key at https://developers.nextzen.org/
-          apiKey: 'your-nextzen-api-key',
+          apiKey: 'DpCrhQqsR2igQPEINRTfcw',
           debug: true
         }
       });
-      map.setView([lat, lon],13);
+      map.setView([37.79804, -122.40748],16.5);
       // moves zoom control to the bottom right of the map page
       map.zoomControl.setPosition('bottomright');
       // adds a search box to a map
       // get your search key at https://geocode.earth/
-      var geocoder = L.Nextzen.geocoder('your-geocode.earth-api-key');
+      var geocoder = L.Nextzen.geocoder('ge-3d066b6b1c398181');
       geocoder.addTo(map);
       // allows for a URL hash to be created
       L.Nextzen.hash({
