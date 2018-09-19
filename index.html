@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="../dist/nextzen.css">
+    <style>
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="../dist/nextzen.js"></script>
+    <script>
+      var lon = -74.009,
+          lat = 40.70531;
+      // creates a map with default (bubble-wrap) style
+      var map = L.Nextzen.map('map', {
+        tangramOptions: {
+          // get your tile key at https://developers.nextzen.org/
+          apiKey: 'your-nextzen-api-key',
+          debug: true
+        }
+      });
+      map.setView([lat, lon],13);
+      // moves zoom control to the bottom right of the map page
+      map.zoomControl.setPosition('bottomright');
+      // adds a search box to a map
+      // get your search key at https://geocode.earth/
+      var geocoder = L.Nextzen.geocoder('your-geocode.earth-api-key');
+      geocoder.addTo(map);
+      // allows for a URL hash to be created
+      L.Nextzen.hash({
+        map: map,
+        geocoder: geocoder
+      });
+      // creates a Mapzen "bug" with header for Mapzen projects
+      L.Nextzen.bug({
+        name: 'Web Map',
+        tweet: '@mapzen',
+        repo: 'https://github.com/mapzen/web-map',
+        mapID: 'map'});
+      // adds a locator button to the map
+      var locator = L.Nextzen.locator();
+      locator.setPosition('bottomright');
+      locator.addTo(map);
+      // adds a tangram event listener
+      map.on('tangramloaded', function(e) {
+        console.log(e.tangramLayer);
+      });
+    </script>
+  </body>
+</html>
