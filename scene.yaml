@@ -1,0 +1,146 @@
+import:
+    - https://www.nextzen.org/carto/refill-style/refill-style.zip
+    - https://s3.amazonaws.com/xyz-demo/data/demo.yaml
+    - https://www.nextzen.org/carto/refill-style/themes/label-10.zip
+global:
+    sdk_building_extrude: false
+sources:
+    _sf_curbs:
+        url: https://xyz.api.here.com/hub/spaces/FgCvp7xq/tile/web/{z}_{x}_{y}
+        type: GeoJSON
+        url_params: 
+            # access_token: Ef87rh2BTh29U-tyUx9NxQ
+            access_token: ATfbC-zTTVedT7ldmLqRSt8
+            # limit: 99999
+            # tags: existing
+            # clip: true
+    _walk_to_books:
+        url: https://xyz.cit.api.here.com/hub/spaces/7Pl9iDmI/tile/web/{z}_{x}_{y}
+        url_params:
+            access_token: AXz5JhhmZTvIFnNzjXotg7U
+        type: GeoJSON
+    _boots_to_books:
+        url: https://gist.githubusercontent.com/burritojustice/43518fa6147425ce02e3ffbca0db3761/raw/8d261374010eab8d7ff95827c65c7cee4ff108d9/boots_to_books.geojson
+        # url_params:
+        #     access_token: AXz5JhhmZTvIFnNzjXotg7U
+        type: GeoJSON
+    
+    
+styles:
+    _points0:
+        base: points
+        blend: overlay
+        blend_order: 0
+    _points:
+        base: points
+        blend: overlay
+        blend_order: 1
+    _points2:
+        base: points
+        blend: overlay
+        blend_order: 2
+    _text2:
+        base: text
+        blend: overlay
+        blend_order: 2
+    _text:
+        base: text
+        blend: overlay
+        blend_order: 3
+layers:
+    roads:
+#         enabled: false
+        draw:
+
+    pois:
+       # enabled: false
+        filter: 
+            - kind: books
+            - kind: pub
+            - kind: museum
+            - id: 331389010
+            - id: 1607230272
+
+    _sf_curbs:
+        # enabled: false
+        data: {source: _sf_curbs}
+        draw:
+            lines:
+                color: '#999'
+                width: 1px
+                order: 100
+
+    _walk_to_books:
+        data: {source: _walk_to_books}
+        _route:
+            draw:
+                lines: 
+                    color: red
+                    width: 5px
+                    order: 101
+        _stops:
+            filter: 
+                all:
+                    - $geometry: point
+                    - order: true
+
+            _circles:
+                # enabled: false
+                draw:
+                    _points2:
+                        # optional: false
+                        collide: false
+                        color: [1,1,1,0.7]
+                        size: 24
+                        outline:
+                            color: [0,0,1,0.8]
+                            width: 2px
+                        text:
+                            priority: 2
+                            optional: true
+                            font:
+                                fill: blue
+                                size: 12px
+                                stroke:
+                                    color: white
+                                    width: 3px
+        # _stop_number:
+        #     draw:
+        #         _text2:
+        #             collide: false
+        #             # priority: 1
+        #             # optional: false
+        #             text_source: order
+        #             # text_source: |
+        #             #     function(){return feature['marker-symbol']}
+        #             font:
+        #                 fill: blue
+        #             size: 5px
+        #             stroke:
+        #                 color: white
+        #                 width: 3px
+
+    _stop_number: # pulling it in from a different data source
+        data: {source: _boots_to_books}
+        draw:
+            _text:
+                collide: false
+                # priority: 10
+                # optional: false
+                text_source: order 
+                font:
+                    fill: blue
+                size: 4px
+                stroke:
+                    color: white
+                    width: 3px
+
+
+
+
+
+
+
+
+
+                
