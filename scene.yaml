@@ -1,7 +1,7 @@
 import:
     - https://www.nextzen.org/carto/refill-style/refill-style.zip
     - https://s3.amazonaws.com/xyz-demo/data/demo.yaml
-    - https://www.nextzen.org/carto/refill-style/themes/label-10.zip
+    - https://www.nextzen.org/carto/refill-style/themes/label-3.zip
 global:
     sdk_building_extrude: false
 sources:
@@ -48,22 +48,22 @@ styles:
         blend: overlay
         blend_order: 3
 layers:
-    roads:
-        enabled: false
     # roads:
-    #     # default-outline-width:
+    #     enabled: false
+    roads:
+        # default-outline-width:
     #         # enabled: false
-    #     draw:
-    _roads:
-        data:
-            source: nextzen
-            layer: roads
         draw:
-            text:
-                font:
-                    face: Arial
-                    size: 10px
-                    fill: black
+    # _roads:
+    #     data:
+    #         source: nextzen
+    #         layer: roads
+    #     draw:
+    #         text:
+    #             font:
+    #                 face: Arial
+    #                 size: 10px
+    #                 fill: black
 
     pois:
         enabled: false
@@ -137,7 +137,7 @@ layers:
 
     _stop_number: # pulling it in from a different data source
         # enabled: false
-        data: {source: _boots_to_books}
+        data: {source: _walk_to_books}
         draw:
             _text2:
                 repeat_distance: 0px
